@@ -1,0 +1,8 @@
+body{
+  background-image: url('https://everyleader.net/wp-content/uploads/2015/09/every-leader-weekly-todo-list.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+}
