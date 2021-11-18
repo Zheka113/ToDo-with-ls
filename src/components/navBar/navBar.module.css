@@ -1,0 +1,13 @@
+.navBar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+}
+.navBar button{
+    width: 100%;
+    justify-content: center;
+}
+
+.activeLink button{
+    background-color: chartreuse;
+}
