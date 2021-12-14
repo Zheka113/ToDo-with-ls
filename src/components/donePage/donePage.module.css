@@ -1,0 +1,8 @@
+.donePage{
+    display: grid ;
+    justify-content: center;
+}
+.donePage div{
+    display:flex;
+    align-items:baseline;
+}

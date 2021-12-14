@@ -1,19 +1,24 @@
 import React from 'react';
-import style from './mainPage.module.css';
+import style from './donePage.module.css';
 
-function MainPage() {
+function DonePage() {
+    let testfoo = () =>{
+        console.log('test')
+    }
     return (
-        <div className={style.mainPage}>
-            <textarea />
-            <button>Add</button>
+        <div className={style.donePage}>
             <div>
+                <input type="checkbox" checked={true} onChange={testfoo} />
                 <div>zadanie 1</div>
+                <button>X</button>
+            </div>
+            <div>
+                <input type="checkbox" />
                 <div>zadanie 2</div>
-                <div>zadanie 3</div>
-                <div>zadanie 4</div>
+                <button>X</button>
             </div>
         </div>
     );
 }
 
-export default MainPage;
+export default DonePage;
